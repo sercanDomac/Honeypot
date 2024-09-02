@@ -46,12 +46,11 @@ Güvenlik Önerileri
 Honeypot uygulamanızın güvenli bir şekilde çalışmasını sağlamak için şu adımları uygulayın:
 
 1. İzolasyon
-Honeypot'u şirket ağınızdan izole etmek, saldırganların gerçek sistemlere erişmesini engellemek için kritiktir. Honeypot'u izole etmek için şu yöntemleri kullanabilirsiniz:
+Honeypot'u şirket ağınızdan izole etmek, saldırganların gerçek sistemlere erişmesini engellemek için kritiktir. Honeypot'u izole etmek için şu yöntemleri kullanabilirsiniz: VLAN veya Ayrı Fiziksel Ağ: Honeypot'u ayrı bir VLAN veya tamamen ayrı bir fiziksel ağ üzerinde yapılandırarak şirket ağından izole edebilirsiniz. DMZ (Demilitarized Zone): Honeypot'u bir DMZ içinde çalıştırarak, şirketin iç ağından izole edebilirsiniz.
 
-VLAN veya Ayrı Fiziksel Ağ: Honeypot'u ayrı bir VLAN veya tamamen ayrı bir fiziksel ağ üzerinde yapılandırarak şirket ağından izole edebilirsiniz.
-DMZ (Demilitarized Zone): Honeypot'u bir DMZ içinde çalıştırarak, şirketin iç ağından izole edebilirsiniz.
 2. Güvenlik Duvarı
 Erişim Kısıtlamaları: Honeypot'a sadece belirli IP adreslerinden erişime izin verin ve diğer trafiği engelleyin.
 Giden Trafik Kontrolü: Honeypot'un giden trafiğini kısıtlayarak, saldırganların iç ağa erişimini engelleyin.
+
 3. Sanallaştırma
 VMware ESXi: VMware ESXi üzerinde sanal ağlar (vSwitch) kullanarak honeypot'u izole edebilirsiniz. Bu, fiziksel ağdan bağımsız olarak sanal bir ağ içinde çalışmasını sağlar.
