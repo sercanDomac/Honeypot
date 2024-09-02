@@ -42,10 +42,15 @@ Sahte Dosyalar
 Aşağıdaki URL'ler üzerinden sahte dosyalara erişebilirsiniz:
 
 Ana Sayfa: http://127.0.0.1:5000/
+
 Veeam Yedekleme Dosyaları: http://127.0.0.1:5000/veeam
+
 Şirket Raporu (PDF): http://127.0.0.1:5000/pdf
+
 Çalışan Verileri (Excel): http://127.0.0.1:5000/excel
+
 Şirket Bilgileri (Word): http://127.0.0.1:5000/word
+
 Rastgele Hata Mesajları ve Yavaşlatma
 Bu honeypot, saldırganları daha fazla yanıltmak ve onların sistemde daha uzun süre kalmasını sağlamak için rastgele hata mesajları gösterir ve bilinçli olarak dosya erişimlerini yavaşlatır. Bu sayede, saldırganın sistemdeki hareketlerini daha detaylı bir şekilde izleyebilir ve analiz edebilirsiniz.
 
